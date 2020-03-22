@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://raghunathdaita.github.io/MyFastPagesBlog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://raghunathdaita.github.io/MyFastPagesBlog/" rel="alternate" type="text/html" /><updated>2020-03-22T07:40:54-05:00</updated><id>https://raghunathdaita.github.io/MyFastPagesBlog/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Hello_world_document</title><link href="https://raghunathdaita.github.io/MyFastPagesBlog/2020/03/21/Hello_World_Document.html" rel="alternate" type="text/html" title="Hello_world_document" /><published>2020-03-21T00:00:00-05:00</published><updated>2020-03-21T00:00:00-05:00</updated><id>https://raghunathdaita.github.io/MyFastPagesBlog/2020/03/21/Hello_World_Document</id><content type="html" xml:base="https://raghunathdaita.github.io/MyFastPagesBlog/2020/03/21/Hello_World_Document.html">&lt;h1 id=&quot;hello-world&quot;&gt;Hello World&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://raghunathdaita.github.io/MyFastPagesBlog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://raghunathdaita.github.io/MyFastPagesBlog/" rel="alternate" type="text/html" /><updated>2020-03-22T08:25:13-05:00</updated><id>https://raghunathdaita.github.io/MyFastPagesBlog/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">_03 22_hello_world</title><link href="https://raghunathdaita.github.io/MyFastPagesBlog/2020/03/21/_03-22_Hello_World.html" rel="alternate" type="text/html" title="_03 22_hello_world" /><published>2020-03-21T00:00:00-05:00</published><updated>2020-03-21T00:00:00-05:00</updated><id>https://raghunathdaita.github.io/MyFastPagesBlog/2020/03/21/_03-22_Hello_World</id><content type="html" xml:base="https://raghunathdaita.github.io/MyFastPagesBlog/2020/03/21/_03-22_Hello_World.html">&lt;h1 id=&quot;hello-world&quot;&gt;Hello World&lt;/h1&gt;
 
 &lt;p&gt;This is a sample word document that needs to be converted directly into a blog entry!!&lt;/p&gt;
 
 &lt;p&gt;ऊं नमः शिवाय&lt;/p&gt;
-
-&lt;h2 id=&quot;mp4-video&quot;&gt;MP4 video&lt;/h2&gt;
-
-&lt;h2 id=&quot;mp3-video&quot;&gt;MP3 video&lt;/h2&gt;
 
 &lt;h2 id=&quot;youtube-video-link&quot;&gt;Youtube Video Link&lt;/h2&gt;
 
