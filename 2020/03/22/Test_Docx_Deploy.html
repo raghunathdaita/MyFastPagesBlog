@@ -1,0 +1,111 @@
+<p>I have created 2 new models</p>
+
+<p>1)  RXD87MDL_1</p>
+
+<p>2)  RXD87MDL_2</p>
+
+<p>Snapshot of the “EDIT DATABASE RELATIONS” screen from RXD87MDL_1 model<img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image1.png" alt="" /></p>
+
+<p>Snapshot of the library list for this model. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image2.png" alt="" /></p>
+
+<p>Snapshot of the “EDIT DATABASE RELATIONS” screen from RXD87MDL_2 model<img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image3.png" alt="" /></p>
+
+<p>Snapshot of the library list for this model. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image4.png" alt="" /></p>
+
+<p><strong><span class="underline">Please note that for the library list related to both models, I have the GENLIB and MDLLIB for the related model, alongwith the GENLIB for the other model. That is for model RXD87MDL_1, I have libraries RXD87GEN_1, RXD87MDL_1 and RXD87GEN_2. Vice versa for model RXD87MDL_2 too.</span></strong></p>
+
+<p><span class="underline">All the access paths are generated and compiled in both the models.</span></p>
+
+<p>I have created a new Web Option Environment library to use with both of my models – DAIRA0187W<img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image5.png" alt="" /></p>
+
+<p>Contents of this library are standard stuff <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image6.png" alt="" /></p>
+
+<p>The library list on the WEB2E_SVR job description in my Web Option library DAIRA0187W <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image7.png" alt="" /></p>
+
+<p>Some Important data areas in my Web Option Environment library <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image8.png" alt="" /></p>
+
+<p><img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image9.png" alt="" /></p>
+
+<p>I have also created a new HTTP Server instance to be associated with DAIRA0187W. I have named it as DAIRA0187W too. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image10.png" alt="" /></p>
+
+<p>The associated port with is 8787. Snapshot of the <strong>“/www/daira0187w/conf/httpd.conf</strong>” file is as follows <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image11.png" alt="" /></p>
+
+<p><img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image12.png" alt="" /></p>
+
+<p><img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image13.png" alt="" /></p>
+
+<p>I have associated both my models RXD87MDL_1 and RXD87MDL_2 with this same Web Option Environment library. I have modified the model value YW2ELIB in both models as follows</p>
+
+<p>RXD87MDL_1 <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image14.png" alt="" /></p>
+
+<p><img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image15.png" alt="" /></p>
+
+<p>RXD87MDL_2 <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image16.png" alt="" /></p>
+
+<p><img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image17.png" alt="" /></p>
+
+<p>I now enter the RXD87MDL_1 model and zoom into the “EDIT FUNCTIONS” screen for the “Students” file.<img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image18.png" alt="" /></p>
+
+<p>Zoom into the “Edit Students” function. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image19.png" alt="" /></p>
+
+<p>I have set the “*STD SCREEN HEADINGS(MLS)” header/footer as default. So this is chosen as seen below. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image20.png" alt="" /></p>
+
+<p>Generate and compile the function.</p>
+
+<p>Zoom into the generated Display file. The Screen Id is as shown below: <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image21.png" alt="" /></p>
+
+<p>I have repeated the same for “Select Students” function as well. The Screen Id is as follows: <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image22.png" alt="" /></p>
+
+<p>Coming to the 2<sup>nd</sup> model, I need to ensure the that function related objects have a different name when compared to the 1<sup>st</sup> model. This is to avoid any name clashes.</p>
+
+<p>For example, the first function that gets created in my model is UUGAEFR in both my models. The challenge here is that, if the same name exists but with different SCREEN ID’s, then the function that gets invoked is dependent on the first such object encountered in the interactive library list being used in Web Option.</p>
+
+<p>If the library list for RXD87MDL_1 is set, then when I invoke “UUAGEFR”, “Edit Students” is invoked. If library list for RXD87MDL_2 is set, then “Edit Product_File” is invoked. This is because both the functions are named as UUAGEFR.</p>
+
+<p>To overcome this, in 2<sup>nd</sup> model RXD87MDL_2, I have set the YOBJPFX model value to “VV” instead of “UU. This ensure that both my access paths and function names start with “VV” instead of “UU”.</p>
+
+<p>I now enter the RXD87MDL_2 model and zoom into the “EDIT FUNCTIONS” screen for the “Product_File” file. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image23.png" alt="" /></p>
+
+<p>Zoom into the “Edit Product_File” function. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image24.png" alt="" /></p>
+
+<p>I have set the “*STD SCREEN HEADINGS(MLS)” header/footer as default. So this is chosen as seen below. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image25.png" alt="" /></p>
+
+<p>Generate and compile the function.</p>
+
+<p>Zoom into the generated Display file. The Screen Id is as shown below: <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image26.png" alt="" /></p>
+
+<p>I have repeated the same for “Select Product_File” function as well. The Screen Id is as follows: <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image27.png" alt="" /></p>
+
+<p>I generate the HTML for all 4 functions from both the models. When I execute the YWRKSCRXRF command, I get the following result: <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image28.png" alt="" /></p>
+
+<p>I then start my Web Option environment and related HTTP server instance.</p>
+
+<p>I go to the browser and point it to my related HTTP server instance. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image29.png" alt="" /></p>
+
+<p>Upon login <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image30.png" alt="" /></p>
+
+<p>I set the library list for model RXD87MDL_1. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image31.png" alt="" /></p>
+
+<p>I call function UUAGEFR (“Edit Students” from <strong>RXD87MDL_1</strong> model)<img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image32.png" alt="" /></p>
+
+<p>When I press Enter, the related web page for UUAGEFR is displayed. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image33.png" alt="" /></p>
+
+<p>I exit the function. Now I try to call function VVAGEFR(“Edit Product_File” from <strong>RXD87MDL_2</strong> model). <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image34.png" alt="" /></p>
+
+<p>When I press Enter, the related web page for VVAGEFR is displayed.<img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image35.png" alt="" /></p>
+
+<p>On similar lines, I set the library list for model RXD87MDL_2. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image36.png" alt="" /></p>
+
+<p>I call function UUAGEFR (“Edit Students” from <strong>RXD87MDL_1</strong> model) <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image37.png" alt="" /></p>
+
+<p>When I press Enter, the related web page for UUAGEFR is displayed. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image38.png" alt="" /></p>
+
+<p>I exit the function. Now I try to call function VVAGEFR(“Edit Product_File” from <strong>RXD87MDL_2</strong> model). <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image39.png" alt="" /></p>
+
+<p>When I press Enter, the related web page for VVAGEFR is displayed. <img src="https://raghunathdaita.github.io/MyFastPagesBlog/assets/img/2020-03-22-Test_Docx_Deploy/media/image40.png" alt="" /></p>
+
+<p>So I am able to use the same web option environment + HTTP server instance with 2 separate libraries. The 2 small quickfixes are as follows:</p>
+
+<p>1)  Ensure that the generation libraries of both models exist in the library list of the models.</p>
+
+<p>2)  Ensure that the YOBJPFX is set to different values for both models, to make sure that there are no name clashes.</p>
